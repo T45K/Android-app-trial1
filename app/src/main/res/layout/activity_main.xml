@@ -23,7 +23,7 @@
                 android:ems="10"
                 android:id="@+id/numberInput1"
                 android:layout_alignParentStart="true"
-                android:hint="数字を入力"
+                android:hint="@string/hint_input_number"
                 android:layout_marginTop="35dp" />
 
             <Button
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/numberInput1"
                 android:layout_toEndOf="@id/numberInput1"
-                android:text="計算"/>
+                android:text="@string/button_calc"/>
 
             <Spinner
                 android:id="@+id/operationSelector"
@@ -51,7 +51,7 @@
                 android:id="@+id/numberInput2"
                 android:layout_alignEnd="@id/operationSelector"
                 android:layout_below="@id/operationSelector"
-                android:hint="数字を入力"
+                android:hint="@string/hint_input_number"
                 android:layout_marginTop="35dp" />
 
             <Button
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/numberInput2"
                 android:layout_toEndOf="@id/numberInput2"
-                android:text="計算"/>
+                android:text="@string/button_calc"/>
 
             <TextView
                 android:id="@+id/calcResult"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/numberInput2"
                 android:layout_alignEnd="@id/numberInput2"
-                android:hint="計算結果"
+                android:hint="@string/calc_result_default"
                 android:layout_marginTop="35dp" />
 
             <Button
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/calcResult"
                 android:layout_alignEnd="@id/calcResult"
-                android:text="続けて計算する"
+                android:text="@string/button_next"
                 android:layout_marginTop="35dp" />
 
         </RelativeLayout>

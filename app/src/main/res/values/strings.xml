@@ -4,8 +4,8 @@
     <string name="button_calc">計算</string>
     <string name="calc_result_text">=%l$d</string>
     <string name="calc_result_default">=計算結果</string>
-    <string name="button_text">続けて計算する</string>
-    <string name="title_another_clac">別画面で計算中</string>
+    <string name="button_next">続けて計算する</string>
+    <string name="title_another_calc">別画面で計算中</string>
     <string name="button_back">戻る</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
